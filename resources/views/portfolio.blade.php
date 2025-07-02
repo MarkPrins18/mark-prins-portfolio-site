@@ -368,7 +368,7 @@
                             <span class="tech-tag">UX Design</span>
                         </div>
                         <div class="flex gap-4">
-                            <a href="https://github.com/MarkPrins18/mark-prins-portfolio" target="_blank" class="text-primary-400 hover:text-primary-300 transition-colors flex items-center text-sm">
+                            <a href="https://github.com/MarkPrins18/mark-prins-portfolio-site" target="_blank" class="text-primary-400 hover:text-primary-300 transition-colors flex items-center text-sm">
                                 <i class="fab fa-github mr-1"></i> View Code
                             </a>
                             <span class="text-green-400 text-sm flex items-center">
