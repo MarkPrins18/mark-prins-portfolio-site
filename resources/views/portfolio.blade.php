@@ -6,7 +6,7 @@
 @section('content')
     @include('components.navbar')
 
-
+    
     <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-secondary-500/20"></div>
         
@@ -16,7 +16,7 @@
                 &lt;?php echo "Hello World!"; ?&gt;
             </div>
             <div class="absolute top-40 right-20 text-blue-400 font-mono text-sm animate-pulse delay-500">
-                const stack = ['Laravel', 'Vue', 'Node.js'];
+                const stack = ['Laravel', 'Vue', 'Tailwind'];
             </div>
             <div class="absolute bottom-40 left-20 text-yellow-400 font-mono text-sm animate-pulse delay-1000">
                 SELECT * FROM opportunities WHERE developer = 'Mark';
@@ -42,9 +42,8 @@
                 Junior Full-Stack Developer <span class="text-primary-400">|</span> MBO Graduate <span class="text-primary-400">|</span> Laravel Developer
             </h2>
             <p class="text-lg md:text-xl text-gray-400 mb-8 leading-relaxed max-w-2xl mx-auto">
-                Recent MBO Software Development graduate from the Netherlands with professional Laravel experience. 
-                Comfortable working across the full stack - from database design to frontend implementation. 
-                Always eager to learn new technologies and improve my development skills.
+                Just graduated from MBO Software Development in the Netherlands. Learned HTML, CSS, PHP, JavaScript, and Laravel in school, and got to work with Laravel and Tailwind professionally. 
+                Also worked with Git, SQL, and experimented with PostgreSQL, Supabase, Firebase, and Firestore in personal projects.
             </p>
             
 
@@ -88,14 +87,14 @@
     
                 <div class="lg:col-span-2 fade-in-up">
                     <div class="grid md:grid-cols-2 gap-6">
-                        <div class="glass-effect p-6">
+                        <div class="glass-effect p-6 bg-white/5 backdrop-blur-sm rounded-xl">
                             <div class="flex items-center mb-4">
                                 <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mr-4">
                                     <i class="fas fa-server text-blue-400 text-xl"></i>
                                 </div>
                                 <h4 class="text-xl font-bold">Backend Development</h4>
                             </div>
-                            <p class="text-gray-400 mb-4">Comfortable with PHP and Laravel development, including database design and API creation.</p>
+                            <p class="text-gray-400 mb-4">Learned PHP and Laravel in school, then got to use them professionally at work. Really enjoy Laravel's structure and built some APIs with it.</p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="px-2 py-1 bg-blue-500/20 text-blue-400 rounded text-xs">PHP</span>
                                 <span class="px-2 py-1 bg-blue-500/20 text-blue-400 rounded text-xs">Laravel</span>
@@ -104,14 +103,14 @@
                             </div>
                         </div>
                         
-                        <div class="glass-effect p-6">
+                        <div class="glass-effect p-6 rounded-xl">
                             <div class="flex items-center mb-4">
                                 <div class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mr-4">
                                     <i class="fas fa-desktop text-green-400 text-xl"></i>
                                 </div>
                                 <h4 class="text-xl font-bold">Frontend Development</h4>
                             </div>
-                            <p class="text-gray-400 mb-4">Solid foundation in frontend technologies with focus on responsive design and user experience.</p>
+                            <p class="text-gray-400 mb-4">Learned HTML, CSS, and JavaScript in school, then used Tailwind professionally at work. Still improving my responsive design skills.</p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="px-2 py-1 bg-green-500/20 text-green-400 rounded text-xs">HTML5</span>
                                 <span class="px-2 py-1 bg-green-500/20 text-green-400 rounded text-xs">CSS3</span>
@@ -120,19 +119,19 @@
                             </div>
                         </div>
                         
-                        <div class="glass-effect p-6">
+                        <div class="glass-effect p-6 rounded-xl">
                             <div class="flex items-center mb-4">
                                 <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mr-4">
                                     <i class="fas fa-database text-purple-400 text-xl"></i>
                                 </div>
                                 <h4 class="text-xl font-bold">Database Design</h4>
                             </div>
-                            <p class="text-gray-400 mb-4">Understanding of database fundamentals, SQL queries, and basic database design principles.</p>
+                            <p class="text-gray-400 mb-4">Learned SQL in school and used MySQL with Laravel. Also experimented with PostgreSQL, Supabase, Firebase, and Firestore in personal projects.</p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="px-2 py-1 bg-purple-500/20 text-purple-400 rounded text-xs">MySQL</span>
-                                <span class="px-2 py-1 bg-purple-500/20 text-purple-400 rounded text-xs">SQL</span>
-                                <span class="px-2 py-1 bg-purple-500/20 text-purple-400 rounded text-xs">ERD Design</span>
-                                <span class="px-2 py-1 bg-purple-500/20 text-purple-400 rounded text-xs">Migrations</span>
+                                <span class="px-2 py-1 bg-purple-500/20 text-purple-400 rounded text-xs">PostgreSQL</span>
+                                <span class="px-2 py-1 bg-purple-500/20 text-purple-400 rounded text-xs">Supabase</span>
+                                <span class="px-2 py-1 bg-purple-500/20 text-purple-400 rounded text-xs">Firebase</span>
                             </div>
                         </div>
                         
@@ -143,7 +142,7 @@
                                 </div>
                                 <h4 class="text-xl font-bold">DevOps & Tools</h4>
                             </div>
-                            <p class="text-gray-400 mb-4">Familiar with essential development tools and version control workflows.</p>
+                            <p class="text-gray-400 mb-4">Used Git in school and at work. VS Code is my main editor. Still learning PHPUnit testing but getting comfortable with it.</p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="px-2 py-1 bg-yellow-500/20 text-yellow-400 rounded text-xs">Git</span>
                                 <span class="px-2 py-1 bg-yellow-500/20 text-yellow-400 rounded text-xs">VS Code</span>
@@ -161,8 +160,8 @@
     <section id="skills" class="py-20">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
-                <h2 class="section-title">My Developer Toolkit</h2>
-                <p class="text-gray-400 text-lg">The technologies I work with and am constantly learning</p>
+                <h2 class="section-title">What I Work With</h2>
+                <p class="text-gray-400 text-lg">Technologies I've learned and used in projects</p>
             </div>
             
 
@@ -187,16 +186,17 @@
                                 <span class="text-blue-400">public</span> <span class="text-green-400">$frameworks</span> = [
                             </div>
                             <div class="ml-12 space-y-1">
-                                <div><span class="text-orange-400">'Laravel'</span> => <span class="text-cyan-400">'Professional experience'</span>,</div>
-                                <div><span class="text-orange-400">'PHP'</span> => <span class="text-cyan-400">'Server-side development'</span>,</div>
+                                <div><span class="text-orange-400">'Laravel'</span><span class="text-white">,</span></div>
+                                <div><span class="text-orange-400">'PHP'</span><span class="text-white">,</span></div>
+                                <div><span class="text-orange-400">'MySQL'</span></div>
                             </div>
                             <div class="ml-8">];</div>
                             <div class="ml-8">
                                 <span class="text-blue-400">public</span> <span class="text-green-400">$databases</span> = [
                             </div>
                             <div class="ml-12 space-y-1">
-                                <div><span class="text-orange-400">'MySQL'</span> => <span class="text-cyan-400">'Primary database'</span>,</div>
-                                <div><span class="text-orange-400">'SQL'</span> => <span class="text-cyan-400">'Query language & ERD design'</span>,</div>
+                                <div><span class="text-orange-400">'MySQL'</span><span class="text-white">,</span></div>
+                                <div><span class="text-orange-400">'SQL'</span></div>
                             </div>
                             <div class="ml-8">];</div>
                             <div class="ml-4 text-white">}</div>
@@ -222,21 +222,21 @@
                                 <span class="text-cyan-400">fundamentals</span>: [
                             </div>
                             <div class="ml-8 space-y-1">
-                                <div><span class="text-orange-400">'HTML5'</span>, <span class="text-gray-400">// Semantic markup</span></div>
-                                <div><span class="text-orange-400">'CSS3'</span>, <span class="text-gray-400">// Styling & animations</span></div>
-                                <div><span class="text-orange-400">'JavaScript'</span>, <span class="text-gray-400">// DOM manipulation & events</span></div>
+                                <div><span class="text-orange-400">'HTML5'</span><span class="text-white">,</span></div>
+                                <div><span class="text-orange-400">'CSS3'</span><span class="text-white">,</span></div>
+                                <div class="text-orange-400">'JavaScript'</div>
                             </div>
                             <div class="ml-4">],</div>
                             <div class="ml-4">
                                 <span class="text-cyan-400">frameworks</span>: [
                             </div>
                             <div class="ml-8 space-y-1">
-                                <div><span class="text-orange-400">'Tailwind CSS'</span>, <span class="text-gray-400">// Utility-first styling</span></div>
-                                <div><span class="text-orange-400">'Vue.js'</span>, <span class="text-gray-400">// Currently learning</span></div>
+                                <div><span class="text-orange-400">'Tailwind CSS'</span><span class="text-white">,</span></div>
+                                <div class="text-orange-400">'Vue.js'</div>
                             </div>
                             <div class="ml-4">],</div>
                             <div class="ml-4">
-                                <span class="text-cyan-400">tools</span>: [<span class="text-orange-400">'VS Code'</span>, <span class="text-orange-400">'Chrome DevTools'</span>]
+                                <span class="text-cyan-400">tools</span>: [<span class="text-orange-400">'VS Code'</span><span class="text-white">,</span> <span class="text-orange-400">'Chrome DevTools'</span><span class="text-white">,</span> <span class="text-orange-400">'Postman'</span>]
                             </div>
                             <div class="text-white">};</div>
                         </div>
@@ -395,8 +395,7 @@
                 <div class="fade-in-up">
                     <h3 class="text-2xl font-bold mb-6">Get In Touch</h3>
                     <p class="text-gray-300 mb-8 leading-relaxed">
-                        I'm always excited to discuss new opportunities, collaborate on interesting projects, or just chat about the latest in web development. 
-                        Whether you need a full-stack developer or want to explore innovative solutions, let's connect!
+                        I love building things and solving problems with code. Whether you have a project idea, want to chat about tech, or just want to connect with a fellow developer, I'd love to hear from you!
                     </p>
                     
                     <div class="space-y-4">

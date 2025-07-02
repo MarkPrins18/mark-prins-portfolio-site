@@ -24,7 +24,7 @@
     @yield('content')
     
 
-    @vite(['resources/js/app.js', 'resources/js/portfolio.js', 'resources/js/easter-eggs.js'])
+    @vite(['resources/js/app.js', 'resources/js/portfolio.js'])
     
     @stack('scripts')
 </body>
