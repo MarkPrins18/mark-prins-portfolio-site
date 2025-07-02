@@ -1,4 +1,4 @@
-<!-- Developer Profile -->
+
 <div class="glass-effect p-6 h-full">
     <div class="text-center mb-6">
         <div class="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">

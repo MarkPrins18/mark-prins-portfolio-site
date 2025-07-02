@@ -25,15 +25,11 @@ class ContactController extends Controller
         }
 
         try {
-            // Here you can add email sending logic
-            // For now, we'll just simulate success
-            
-            // Example: Send email to yourself
-            // Mail::raw($request->message, function ($message) use ($request) {
-            //     $message->to('your-email@example.com')
-            //             ->subject('Portfolio Contact: ' . $request->subject)
-            //             ->replyTo($request->email, $request->name);
-            // });
+            Mail::raw($request->message, function ($message) use ($request) {
+                $message->to('mark.prins@ziggo.nl')
+                        ->subject('Portfolio Contact: ' . $request->subject)
+                        ->replyTo($request->email, $request->name);
+            });
 
             return response()->json([
                 'success' => true,

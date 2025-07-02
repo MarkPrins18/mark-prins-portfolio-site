@@ -6,11 +6,11 @@
 @section('content')
     @include('components.navbar')
 
-    <!-- Hero Section -->
+
     <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div class="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-secondary-500/20"></div>
         
-        <!-- Animated Code Background -->
+
         <div class="absolute inset-0 opacity-10">
             <div class="absolute top-20 left-10 text-green-400 font-mono text-sm animate-pulse">
                 &lt;?php echo "Hello World!"; ?&gt;
@@ -47,7 +47,7 @@
                 Always eager to learn new technologies and improve my development skills.
             </p>
             
-            <!-- Tech Stack Preview -->
+
             <div class="flex flex-wrap justify-center gap-3 mb-8">
                 <span class="tech-tag">PHP</span>
                 <span class="tech-tag">Laravel</span>
@@ -74,7 +74,7 @@
         </div>
     </section>
 
-    <!-- About Section -->
+
     <section id="about" class="py-20 bg-gray-800/50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
@@ -85,7 +85,7 @@
             </div>
             
             <div class="grid lg:grid-cols-2 gap-8 items-center">
-                <!-- Skills Overview -->
+    
                 <div class="lg:col-span-2 fade-in-up">
                     <div class="grid md:grid-cols-2 gap-6">
                         <div class="glass-effect p-6">
@@ -157,7 +157,7 @@
         </div>
     </section>
 
-    <!-- Tech Stack Section -->
+
     <section id="skills" class="py-20">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
@@ -165,9 +165,9 @@
                 <p class="text-gray-400 text-lg">The technologies I work with and am constantly learning</p>
             </div>
             
-            <!-- Code Block Style Skills -->
+
             <div class="grid lg:grid-cols-2 gap-8">
-                <!-- Backend Toolkit -->
+
                 <div class="fade-in-up">
                     <div class="bg-gray-900/90 backdrop-blur-sm border border-gray-700 rounded-lg overflow-hidden font-mono">
                         <div class="bg-gray-800 px-4 py-2 flex items-center justify-between">
@@ -205,7 +205,7 @@
                     </div>
                 </div>
 
-                <!-- Frontend Toolkit -->
+
                 <div class="fade-in-up">
                     <div class="bg-gray-900/90 backdrop-blur-sm border border-gray-700 rounded-lg overflow-hidden font-mono">
                         <div class="bg-gray-800 px-4 py-2 flex items-center justify-between">
@@ -243,7 +243,7 @@
                     </div>
                 </div>
 
-                <!-- Development Tools -->
+
                 <div class="fade-in-up lg:col-span-2">
                     <div class="bg-gray-900/90 backdrop-blur-sm border border-gray-700 rounded-lg overflow-hidden font-mono">
                         <div class="bg-gray-800 px-4 py-2 flex items-center justify-between">
@@ -291,7 +291,7 @@
         </div>
     </section>
 
-    <!-- Learning Journey Section -->
+
     <section id="projects" class="py-20 bg-gray-800/50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
@@ -300,7 +300,7 @@
             </div>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- What I'm Building -->
+
                 <div class="project-card glass-effect fade-in-up group">
                     <div class="h-48 bg-gradient-to-br from-green-500/20 to-green-600/20 flex items-center justify-center relative overflow-hidden">
                         <i class="fas fa-hammer text-4xl text-green-400 group-hover:scale-110 transition-transform"></i>
@@ -325,7 +325,7 @@
                     </div>
                 </div>
                 
-                <!-- Learning Focus -->
+
                 <div class="project-card glass-effect fade-in-up group">
                     <div class="h-48 bg-gradient-to-br from-blue-500/20 to-blue-600/20 flex items-center justify-center relative overflow-hidden">
                         <i class="fas fa-book text-4xl text-blue-400 group-hover:scale-110 transition-transform"></i>
@@ -350,7 +350,7 @@
                     </div>
                 </div>
                 
-                <!-- This Portfolio -->
+
                 <div class="project-card glass-effect fade-in-up group">
                     <div class="h-48 bg-gradient-to-br from-purple-500/20 to-purple-600/20 flex items-center justify-center relative overflow-hidden">
                         <i class="fas fa-code text-4xl text-purple-400 group-hover:scale-110 transition-transform"></i>
@@ -368,7 +368,7 @@
                             <span class="tech-tag">UX Design</span>
                         </div>
                         <div class="flex gap-4">
-                            <a href="#" class="text-primary-400 hover:text-primary-300 transition-colors flex items-center text-sm">
+                            <a href="https://github.com/MarkPrins18/mark-prins-portfolio" target="_blank" class="text-primary-400 hover:text-primary-300 transition-colors flex items-center text-sm">
                                 <i class="fab fa-github mr-1"></i> View Code
                             </a>
                             <span class="text-green-400 text-sm flex items-center">
@@ -383,7 +383,7 @@
           
     </section>
 
-    <!-- Contact Section -->
+
     <section id="contact" class="py-20">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 fade-in-up">
@@ -456,7 +456,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+
     <footer class="py-8 bg-gray-800/50 border-t border-gray-700">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">

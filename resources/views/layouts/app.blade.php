@@ -8,14 +8,14 @@
     <title>@yield('title', 'Portfolio - Software Developer')</title>
     <meta name="description" content="@yield('description', 'Software Developer Portfolio - Modern web development with focus on UI/UX design')">
 
-    <!-- Fonts -->
+
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700,800,900&display=swap" rel="stylesheet" />
     
-    <!-- Icons -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Styles -->
+
     @vite(['resources/css/app.css'])
     
     @stack('styles')
@@ -23,7 +23,7 @@
 <body class="bg-gray-900 text-white font-inter antialiased">
     @yield('content')
     
-    <!-- Scripts -->
+
     @vite(['resources/js/app.js', 'resources/js/portfolio.js', 'resources/js/easter-eggs.js'])
     
     @stack('scripts')

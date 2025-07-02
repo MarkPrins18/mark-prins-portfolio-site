@@ -1,5 +1,5 @@
 <div class="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden">
-    <!-- Code Editor Header -->
+    
     <div class="bg-gray-800 px-4 py-2 flex items-center justify-between">
         <div class="flex items-center gap-2">
             <i class="fas fa-code text-blue-400"></i>
@@ -13,10 +13,10 @@
         </div>
     </div>
     
-    <!-- Code Content -->
+
     <div class="p-4 font-mono text-sm">
         <div class="flex">
-            <!-- Line Numbers -->
+            
             <div class="text-gray-500 pr-4 select-none" id="line-numbers">
                 <div>1</div>
                 <div>2</div>
@@ -35,7 +35,7 @@
                 <div>15</div>
             </div>
             
-            <!-- Code Area -->
+            
             <div class="flex-1">
                 <pre id="live-code" class="text-gray-300 leading-relaxed"><span class="cursor-blink">|</span></pre>
             </div>

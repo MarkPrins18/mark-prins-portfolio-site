@@ -12,30 +12,26 @@ class DeveloperEasterEggs {
     }
     
     init() {
-        // Listen for Konami Code
+
         document.addEventListener('keydown', (e) => {
             this.handleKonamiCode(e);
         });
         
-        // Add console commands
+
         this.addConsoleCommands();
-        
-        // Secret developer info in console
+
         this.showConsoleGreeting();
-        
-        // Easter egg for clicking logo multiple times
+
         this.setupLogoClicks();
     }
     
     handleKonamiCode(e) {
         this.currentSequence.push(e.code);
         
-        // Keep only the last 10 key presses
         if (this.currentSequence.length > 10) {
             this.currentSequence.shift();
         }
-        
-        // Check if matches Konami code
+
         if (this.currentSequence.length === 10) {
             const matches = this.konamiCode.every((key, index) => 
                 key === this.currentSequence[index]
@@ -52,8 +48,7 @@ class DeveloperEasterEggs {
         if (this.matrixActive) return;
         
         this.matrixActive = true;
-        
-        // Create matrix rain effect
+
         const matrixContainer = document.createElement('div');
         matrixContainer.id = 'matrix-container';
         matrixContainer.style.cssText = `
@@ -68,11 +63,9 @@ class DeveloperEasterEggs {
         `;
         
         document.body.appendChild(matrixContainer);
-        
-        // Create falling characters
+
         this.createMatrixRain(matrixContainer);
-        
-        // Show message
+
         setTimeout(() => {
             const message = document.createElement('div');
             message.style.cssText = `
@@ -94,8 +87,7 @@ class DeveloperEasterEggs {
             `;
             
             document.body.appendChild(message);
-            
-            // Exit on ESC
+
             const exitHandler = (e) => {
                 if (e.key === 'Escape') {
                     document.body.removeChild(matrixContainer);
@@ -106,8 +98,7 @@ class DeveloperEasterEggs {
             };
             
             document.addEventListener('keydown', exitHandler);
-            
-            // Auto-exit after 10 seconds
+ 
             setTimeout(() => {
                 if (this.matrixActive) {
                     document.body.removeChild(matrixContainer);
@@ -149,8 +140,7 @@ class DeveloperEasterEggs {
             
             container.appendChild(column);
         }
-        
-        // Add CSS animation
+
         const style = document.createElement('style');
         style.textContent = `
             @keyframes matrix-fall {
@@ -166,7 +156,6 @@ class DeveloperEasterEggs {
     }
     
     addConsoleCommands() {
-        // Add secret functions to window for console access
                  window.markDevInfo = () => {
              console.log(`
  🚀 Mark Prins - Developer Portfolio

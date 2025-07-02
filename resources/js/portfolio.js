@@ -1,4 +1,4 @@
-// Portfolio JavaScript
+
 class Portfolio {
     constructor() {
         this.init();
@@ -61,7 +61,7 @@ class Portfolio {
             }
         });
 
-        // Smooth scroll for navigation links
+
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -92,7 +92,7 @@ class Portfolio {
     async handleFormSubmission(form, submitBtn, messagesEl) {
         const originalText = submitBtn.innerHTML;
         
-        // Show loading state
+
         submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Sending...';
         submitBtn.disabled = true;
 
@@ -117,7 +117,7 @@ class Portfolio {
         } catch (error) {
             this.showMessage(messagesEl, 'Sorry, there was an error sending your message. Please try again.', 'error');
         } finally {
-            // Reset button
+    
             submitBtn.innerHTML = originalText;
             submitBtn.disabled = false;
         }
@@ -132,7 +132,7 @@ class Portfolio {
         element.textContent = message;
         element.classList.remove('hidden');
 
-        // Auto-hide success messages after 5 seconds
+
         if (type === 'success') {
             setTimeout(() => {
                 element.classList.add('hidden');
@@ -150,7 +150,7 @@ class Portfolio {
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Close mobile menu when clicking on a link
+
         mobileMenu.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
@@ -159,7 +159,7 @@ class Portfolio {
     }
 }
 
-// Initialize when DOM is ready
+
 document.addEventListener('DOMContentLoaded', () => {
     new Portfolio();
 }); 

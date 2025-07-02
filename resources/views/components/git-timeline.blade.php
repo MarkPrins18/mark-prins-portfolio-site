@@ -1,5 +1,5 @@
 <div class="bg-gray-900/90 backdrop-blur-sm border border-gray-700 rounded-lg overflow-hidden font-mono text-sm">
-    <!-- Git Header -->
+    
     <div class="bg-gray-800 px-4 py-2 flex items-center justify-between">
         <div class="flex items-center gap-2">
             <i class="fab fa-git-alt text-orange-400"></i>
@@ -11,10 +11,10 @@
         </div>
     </div>
     
-    <!-- Git Timeline -->
+
     <div class="p-6 max-h-96 overflow-y-auto">
         <div class="space-y-4">
-            <!-- Recent Commits -->
+            
             <div class="flex items-start gap-3 hover:bg-gray-800/30 p-2 rounded transition-colors cursor-pointer" onclick="toggleCommitDetails(this)">
                 <div class="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
                 <div class="flex-1">
@@ -112,7 +112,7 @@
             </div>
         </div>
         
-        <!-- Show More Button -->
+
         <div class="text-center mt-4">
             <button class="text-primary-400 hover:text-primary-300 text-xs hover:underline">
                 View full history (127 commits)
