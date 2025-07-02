@@ -7,8 +7,11 @@ export default defineConfig({
             'resources/css/app.css',
             'resources/js/app.js',
             'resources/js/portfolio.js',
-            'resources/js/easter-eggs.js',
-            'resources/js/mockups.js',
         ]),
     ],
+    base: '/build/',
+    build: {
+        outDir: 'public/build',
+        emptyOutDir: true,
+    },
 });
