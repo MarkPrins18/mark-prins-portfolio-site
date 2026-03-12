@@ -1,0 +1,106 @@
+{
+  "frontend": [
+    { "id": 1, "label": "HTML5 / CSS3", "hot": true },
+    { "id": 2, "label": "Tailwind CSS", "hot": true },
+    { "id": 3, "label": "WordPress", "hot": true },
+    { "id": 4, "label": "JavaScript (ES6)", "hot": false },
+    { "id": 5, "label": "Technische SEO", "hot": false },
+    { "id": 6, "label": "Responsief Design", "hot": false },
+    { "id": 7, "label": "React (Basis)", "hot": false },
+    { "id": 8, "label": "Next.js (Leertraject)", "hot": false }
+  ],
+  "backend": [
+    {
+      "id": 1,
+      "prompt": "$",
+      "cmd": "php",
+      "flag": "artisan",
+      "arg": "serve",
+      "comment": "# PHP / Laravel basics",
+      "output": "→ server gestart op :8000"
+    },
+    {
+      "id": 2,
+      "prompt": "$",
+      "cmd": "wp-cli",
+      "flag": "",
+      "arg": "site setup & db management",
+      "comment": "# WordPress development inclusief thema’s, plugins en databases",
+      "output": "→ site klaar voor gebruik"
+    },
+    {
+      "id": 3,
+      "prompt": "$",
+      "cmd": "mysql",
+      "flag": "-u",
+      "arg": "root -p",
+      "comment": "# SQL databases voor diverse projecten",
+      "output": "→ database verbonden"
+    },
+    {
+      "id": 4,
+      "prompt": "λ",
+      "cmd": "firebase",
+      "flag": "deploy",
+      "arg": "--only firestore",
+      "comment": "# NoSQL / BaaS projecten",
+      "output": "→ rules & indexes bijgewerkt"
+    },
+    {
+      "id": 5,
+      "prompt": "λ",
+      "cmd": "supabase",
+      "flag": "db",
+      "arg": "push",
+      "comment": "# Auth & Storage voor diverse projecten",
+      "output": "→ schema gesynct"
+    }
+  ],
+  "stack": [
+    {
+      "label": "Frontend",
+      "value": "HTML, CSS, Tailwind",
+      "highlight": false
+    },
+    {
+      "label": "Backend",
+      "value": "PHP, Laravel",
+      "highlight": false
+    },
+    {
+      "label": "CMS",
+      "value": "WordPress",
+      "highlight": false
+    },
+    {
+      "label": "Cloud/DB",
+      "value": "MySQL, Firebase, Supabase",
+      "highlight": false
+    },
+    {
+      "label": "Tools",
+      "value": "Docker, Git",
+      "highlight": false
+    },
+    {
+      "label": "Status",
+      "value": "Junior / Beschikbaar",
+      "highlight": true
+    }
+  ],
+  "ticker": [
+    "PHP",
+    "Laravel",
+    "WordPress",
+    "Tailwind CSS",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "MySQL",
+    "Firebase",
+    "Supabase",
+    "Docker",
+    "SEO",
+    "Git"
+  ]
+}

@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f9f9f7;
+  --color-ink: #1a1a1a;
+  --color-faint: #eaeaea;
+  --color-mid: #7a7168;
+  --color-red: #c93030;
+  --color-green: #22c55e;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f9f9f7;
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+/* Animations  */
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Classes */
+.animate-fadeUp {
+  animation: fadeUp 0.7s ease forwards;
+}
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.ticker-container {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  width: 100%;
+}
+
+.ticker-content {
+  display: inline-flex;
+  flex-shrink: 0;
+  animation: ticker 30s linear infinite;
+}
+
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1.5px #1a1a1a;
+}
