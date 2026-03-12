@@ -42,7 +42,7 @@ export default function Work() {
             rel="noopener noreferrer"
             className="group bg-paper flex flex-col hover:bg-[#fffefb] transition-colors duration-300 overflow-hidden no-underline text-ink"
           >
-            <div className="aspect-[16/10] md:aspect-video lg:aspect-[21/9] overflow-hidden border-b border-faint flex-shrink-0 relative">
+            <div className="aspect-video overflow-hidden border-b border-faint flex-shrink-0 relative">
               <div className="w-full h-full transition-transform duration-700 ease-out group-hover:scale-[1.02]">
                 <ProjectThumb type={p.thumb} title={p.title} />
               </div>
